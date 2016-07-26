@@ -2,6 +2,11 @@
 
 browser-sync start --server --directory --files "*"
 
+HTML Character Entity References:
+1.<    &lt;
+2.>    &gt;
+3.&    &amp;
+
 # Github-Flavored-Markdown
 
 A task list
