@@ -10,6 +10,8 @@ HTML Character Entity References:
 5.quote &quot;
 6.copyright &copy;
 
+a标签中 target="_blank" 则链接在新标签页中打开
+
 # Github-Flavored-Markdown
 
 A task list
