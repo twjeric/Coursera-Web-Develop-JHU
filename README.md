@@ -6,6 +6,9 @@ HTML Character Entity References:
 1.<    &lt;
 2.>    &gt;
 3.&    &amp;
+4.non breaking space &nbsp;
+5.quote &quot;
+6.copyright &copy;
 
 # Github-Flavored-Markdown
 
