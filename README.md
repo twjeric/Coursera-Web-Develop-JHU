@@ -12,6 +12,22 @@ HTML Character Entity References:
 
 a标签中 target="_blank" 则链接在新标签页中打开
 
+Combining Selectors:
+- Element with class selector (selector.class)
+- Child (direct) selector (selector > selector)
+- Descendent selector (selector selector)
+- Adjacent sibling selector (selector + selector)
+- General sibling selector (selector ~ selector)
+
+Pesudo-Class Selectors:
+- :link
+- :visited
+- :hover
+- :active
+- :nth-child(3) nth-child(odd)
+
+
+
 # Github-Flavored-Markdown
 
 A task list
