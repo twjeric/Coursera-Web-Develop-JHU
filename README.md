@@ -26,7 +26,23 @@ Pesudo-Class Selectors:
 - :active
 - :nth-child(3) nth-child(odd)
 
+Specificity：!important > style="..." > ID > Class,pesudo-class,attribute > # of elements
 
+Style:
+```css
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+color: #0000ff;
+font-style: italic;
+font-weight: bold;
+font-size: 24px; default:16px;
+text-transform: uppercase;
+text-align: right;
+}
+</style>
+style="font-size: 2em;" m大小的两倍
+```
 
 # Github-Flavored-Markdown
 
