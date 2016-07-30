@@ -45,7 +45,17 @@ style="font-size: 2em;" m大小的两倍
 ```
 
 The Box Model
-![]()
+![](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/The%20Box%20%20Model.png)
+width is set to the content by default, not the box size;
+
+change it by using box-sizing: border-box (non-inherited)
+```css3
+* {
+   box-sizing: border-box;
+}
+```
+verticle margin will collapse, the larger margin of two elements wins
+overflow: auto;
 
 # Github-Flavored-Markdown
 
