@@ -58,6 +58,12 @@ verticle margin will collapse, the larger margin of two elements wins
 overflow: auto;
 
 ![Media Query Syntax](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/Media%20Query%20Syntax.png)
+![Responsive Web Site](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/Responsive%20Web%20Site.png)
+
+Viewport meta tag to turn off default mobile zooming
+```css3
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
 
 # Github-Flavored-Markdown
 
