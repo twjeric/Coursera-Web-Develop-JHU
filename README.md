@@ -57,6 +57,8 @@ change it by using box-sizing: border-box (non-inherited)
 verticle margin will collapse, the larger margin of two elements wins
 overflow: auto;
 
+![Media Query Syntax](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/Media%20Query%20Syntax.png)
+
 # Github-Flavored-Markdown
 
 A task list
