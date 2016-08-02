@@ -65,6 +65,16 @@ Viewport meta tag to turn off default mobile zooming
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+Bootstrap Grid System Basics
+```html
+<header class="container">
+  <nav class="row">
+    <div class="col-md-4">Col 1</div>
+    ...
+  </nav>
+</header>
+```
+
 # Github-Flavored-Markdown
 
 A task list
