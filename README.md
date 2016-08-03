@@ -79,6 +79,8 @@ Website Links:
 - http://getbootstrap.com/
 - https://jquery.com/
 - http://placehold.it/
+- https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows
+- http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
 
 # Github-Flavored-Markdown
 
