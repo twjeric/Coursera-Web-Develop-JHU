@@ -82,6 +82,98 @@ Website Links:
 - https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows
 - http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
 
+Javascript
+```javascript
+if ( false || null || undefined || "" || 0 || NaN) {
+  console.log("This line won't ever execute");
+}
+else {
+  console.log("All false");
+}
+
+if (true && "hello" && 1 && -1 && "false") {
+  console.log("All true");
+}
+
+//Regular(==) and Strict(===) Equality
+
+//Handling default values
+sideDish = sideDish || "whatever!";
+
+//object literal
+var facebook = {
+  name: "Facebook",
+  ceo: {
+    firstName: "Mark",
+    favColor: "blue"
+  },
+  "stock of company": 110
+};
+
+//Function constructors
+function Circle (radius) {
+  this.radius = radius;
+}
+Circle.prototype.getArea = function () {
+  return Math.PI * Math.pow(this.radius, 2);
+};
+var myCircle = new Circle(10);
+console.log(myCircle.getArea(10));
+
+//Object literals and "this"
+var literalCircle = {
+  radius: 10,
+  
+  getArea: function () {
+    var self = this;
+    
+    var increaseRadius = function () {
+      self.radius = 20;
+    };
+    increaseRadius();
+    
+    return Math.PI * Math.pow(this.radius, 2);
+  }
+};
+
+console.log(literalCircle.getArea());
+
+//Arrays
+var array = new Array();
+var names = ["tang","wei","jie"];
+for (var i = 0; i < names.length; i++) {
+  console.log("Hello " + names[i]);
+}
+var myObj = {
+  name: "Yaakov",
+  course: "HTML/CSS/JS",
+  platform: "Coursera"
+};
+for (var prop in myObj) {
+  console.log(prop + ": " + myObj[prop]);
+}
+for (var name in names) {
+  console.log("Hello " + names[name]);
+}
+
+//
+function makeMultiplier (multiplier) {
+  return (
+    function (x) {
+      return multiplier * x;
+    }
+  );
+}
+var doubleAll = makeMultiplier(2);
+console.log(doubleAll(10));
+
+//Immediately Invoked Function Expression
+//IFEE
+(function (name) {
+  console.log("Hello " + name);
+})("Coursera!");
+```
+
 # Github-Flavored-Markdown
 
 A task list
