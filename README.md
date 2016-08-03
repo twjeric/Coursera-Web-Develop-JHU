@@ -174,6 +174,10 @@ console.log(doubleAll(10));
 })("Coursera!");
 ```
 
+Ajax
+![](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/How%20Does%20Ajax%20Work.png)
+![](https://github.com/twjeric/Coursera-Web-Develop-JHU/blob/master/Ajax%20Process.png)
+
 # Github-Flavored-Markdown
 
 A task list
