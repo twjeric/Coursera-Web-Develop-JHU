@@ -1,3 +1,9 @@
+# Web Front End Design Resources
+
+https://sarasoueidan.com/index.html
+
+About SVG: https://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace
+
 # Coursera-Web-Develop-JHU
 
 browser-sync start --server --directory --files "*"
